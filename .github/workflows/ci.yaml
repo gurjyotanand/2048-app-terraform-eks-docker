@@ -8,6 +8,7 @@ on:
       - "app/**"
       - "!**/README.md"
       - ".github/workflows/ci.yaml"
+      - "infrastructure/k8s-manifest/**"
 
 env:
   AWS_REGION: us-east-1
